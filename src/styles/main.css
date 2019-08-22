@@ -1,0 +1,150 @@
+body {
+    margin: 0px;
+    background-color: rgb(195, 236, 191);
+    font-family: 'Raleway', sans-serif;
+    color: rgb(66, 64, 63);
+}
+
+button {
+    cursor: pointer;
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    background-color: rgb(207, 159, 145);
+    color: rgb(255, 239, 230);
+}
+
+#pageTitle {
+    font-size: 4em;
+}
+
+#addButtonContainer {
+    display: flex;
+    justify-content: center;
+}
+
+#addInterest {
+    margin: 10px;
+    font-size: 1.6em;
+    background-color: rgb(207, 159, 145);
+    color: rgb(255, 239, 230);
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+#addInterest:hover {
+    background-color: rgb(66, 64, 63);
+    color: rgb(255, 249, 249);;
+    transition: 0.4s;
+}
+
+#buttonAndKey {
+    display: flex;
+    justify-content: space-around;
+}
+
+#key {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+#incompleteKey {
+    background-color: rgb(255, 249, 249);
+    padding: 5px;
+    border-radius: 10px;
+}
+#completeKey {
+    background-color: rgb(66, 64, 63);
+    color: rgb(255, 249, 249);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#dialogBox {
+    color: rgb(255, 249, 249);
+    background-color: rgba(114, 114, 114, 1);
+    border: none;
+    box-shadow: 0px 5px 20px 8px rgb(66, 64, 63);
+}
+
+#placesContainer {
+    display: flex;
+    justify-content: center;
+}
+
+#italy {
+    flex-basis: 33.3%;
+}
+
+#switzerland {
+    flex-basis: 33.3%;
+}
+
+#france {
+    flex-basis: 33.3%;
+}
+
+#italyTitle {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(207, 159, 145);
+    color: rgb(255, 239, 230);
+}
+
+#switzerlandTitle {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(207, 159, 145);
+    color: rgb(255, 239, 230);
+}
+
+#franceTitle {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(207, 159, 145);
+    color: rgb(255, 239, 230);
+}
+
+/* #italyContainer {
+    border: 1px solid rgb(66, 64, 63);;
+}
+
+#switzerlandContainer {
+    border: 1px solid rgb(66, 64, 63);;
+
+}
+
+#franceContainer {
+    border: 1px solid rgb(66, 64, 63);;
+} */
+
+.interestContainer {
+    margin: 5px;
+}
+
+.completed {
+    color: rgb(255, 249, 249);;
+    background-color: rgb(66, 64, 63);
+    border-radius: 10px;
+}
+
+.inProgress {
+    background-color: rgb(255, 249, 249);
+    border-radius: 10px;
+}
+.interestNameOnCard {
+    margin-top: 0px;
+}
+
+.reviewContent {
+    font-style: italic;
+    font-size: 0.7em;
+}
+
+.costWithoutReview {
+    font-style: italic;
+}

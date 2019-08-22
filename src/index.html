@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./styles/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <header id="header">
+    <h1 id="pageTitle">Ternary Traveler</h1>
+  </header>
+    <section id="addButtonContainer">
+      <button id="addInterest">Add Interest</button>
+    </section>
+    <section id="key">
+      <div id="incompleteKey">Incomplete</div>
+      <div id="completeKey">Complete</div>
+    </section>
+  <dialog id="dialogBox">
+    <input type="hidden" id="hiddenInterestID" value=""/>
+    <section>
+      <label for="" id="nameName">Name</label>
+      <input type="text" id="nameInput">
+    </section>
+    <section>
+      <label for="" id="descritpionName">Description</label>
+      <input type="text" id="descriptionInput">
+    </section>
+    <section>
+      <label for="" id="costName">Cost</label>
+      <input type="text" id="costInput">
+    </section>
+    <section>
+      <label for="" id="reviewName">Review</label>
+      <input type="text" id="reviewInput">
+    </section>
+    <section>
+      <label for="" id="countryName">Country</label>
+      <select name="" id="countryInput">
+        <option value="Italy">Italy</option>
+        <option value="Switzerland">Switzerland</option>
+        <option value="France">France</option>
+      </select>
+    </section>
+    <button id="saveInterest">Save</button>
+    <button id="cancelInterest">Cancel</button>
+  </dialog>
+  <dialog id="deleteDialogBox">
+    <section>
+      <p>Are you sure you'd like to delete?</p>
+      <button id="confirmDeleteButton">Delete</button>
+      <button id="cancelDelete">Cancel</button>
+    </section>
+  </dialog>
+  <section id="placesContainer">
+    <section id="italy">
+      <section id="italyTitle">
+        <h2>Italy</h2>
+      </section>
+      <section id="italyContainer"></section>
+    </section>
+    <section id="switzerland">
+      <section id="switzerlandTitle">
+        <h2>Switzerland</h2>
+      </section>
+      <section id="switzerlandContainer"></section>
+    </section>
+    <section id="france">
+      <section id="franceTitle">
+        <h2>France</h2>
+      </section>
+      <section id="franceContainer"></section>
+    </section>
+  </section>
+
+</body>
+
+</html>
